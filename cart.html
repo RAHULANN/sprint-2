@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 200px;
+            width: 200px;
+        }
+#dekho{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+
+}
+button{
+    height: 30px;
+}
+#item{
+    display: grid;
+    grid-gap: 20px;
+}
+#sum{
+    margin-left: 60%;
+}
+#buy{
+    margin-left: 80%;
+    margin-bottom: 40px;
+}
+    </style>
+</head>
+<body>
+    <div id="buy" onclick="buy()">
+        <button>BUY NOW</button>
+    </div>
+    <div id="item"></div>
+    <div id="sum"></div>
+</body>
+</html>
+
+<script src="cart.js">
+
+</script>
